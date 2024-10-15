@@ -5,9 +5,9 @@ import (
 	"log"
 	"testing"
 
+	"github.com/marvin-min/testcontainers-go-demo/testhelpers"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
-	"github.com/testcontainers/testcontainers-go-demo/testhelpers"
 )
 
 type CustomerRepoTestSuite struct {
