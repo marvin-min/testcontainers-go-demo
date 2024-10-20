@@ -18,6 +18,7 @@ func Greet(name string) string {
 	}
 	return fmt.Sprintf("Hello, %s!", name)
 }
+
 func GreetSpecification(t testing.TB, greeter Greeter) {
 	got, err := greeter.Greet("John")
 	assert.NoError(t, err)
